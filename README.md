@@ -1,1 +1,1 @@
-"# digit similarity model" 
+# digit similarity model
