@@ -19,6 +19,8 @@ The model is trained using contrastive loss, which is a function that measures h
 To use this project, you need to have Python 3.6 or higher and TensorFlow 2.0 or higher installed on your machine.
 
 ## Results
-The model achieved an accuracy of 90% on the test set, which means that it correctly classified 90% of the pairs of images as similar or dissimilar. Here are some examples of the model’s predictions:
+The model achieved an accuracy of 90% on the test set, which means that it correctly classified 90% of the pairs of images as similar or dissimilar. The less distance are more similar with each other
+Here are some examples of the model’s predictions:
 
-![](https://github.com/ssabrut/fashion-similarity-model/assets/53653797/b3df46d8-b176-48cc-838d-ea9d2cd4fe11)
+![image](https://github.com/ssabrut/fashion-similarity-model/assets/53653797/f3bf3b1c-2856-4c9f-8595-5466e1c8dc01)
+![image](https://github.com/ssabrut/fashion-similarity-model/assets/53653797/36496dfa-fe8b-457f-b3ea-443333d0a84e)
