@@ -10,3 +10,15 @@ The model used for this project is a Siamese Network, which consists of two iden
 <img src="https://github-production-user-asset-6210df.s3.amazonaws.com/53653797/244704422-3099b3ca-f709-4ba8-a512-0fc5f28846f8.png" style="transform: rotate(90deg);">
 
 The model takes two images as input and passes them through the sub-networks. Then, it computes the Euclidean distance between the feature vectors and applies a sigmoid function to get a similarity score between 0 and 1. The closer the score is to 1, the more similar the images are.
+
+![](https://github.com/ssabrut/fashion-similarity-model/blob/main/siamese-model.png)
+
+The model is trained using contrastive loss, which is a function that measures how well the model can distinguish similar and dissimilar pairs of images. The loss function encourages the model to minimize the distance between similar pairs and maximize the distance between dissimilar pairs.
+
+## Usage
+To use this project, you need to have Python 3.6 or higher and TensorFlow 2.0 or higher installed on your machine.
+
+## Results
+The model achieved an accuracy of 90% on the test set, which means that it correctly classified 90% of the pairs of images as similar or dissimilar. Here are some examples of the model’s predictions:
+
+![](https://github.com/ssabrut/fashion-similarity-model/assets/53653797/b3df46d8-b176-48cc-838d-ea9d2cd4fe11)
